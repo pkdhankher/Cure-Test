@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953819011203",
+    "project_id": "kure-test-532b5",
+    "storage_bucket": "kure-test-532b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953819011203:android:22bd8f9c47a20ca6e063b6",
+        "android_client_info": {
+          "package_name": "dhankher.com.kuretest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953819011203-gvrr1nc06u16hu5uknt1rndd12qi37fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe8W26fHQcCkYF2vDfI41LinnNuMpKQWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953819011203-gvrr1nc06u16hu5uknt1rndd12qi37fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
