@@ -2,13 +2,13 @@ package dhankher.com.kuretest.data
 
 import android.util.Log
 import com.google.firebase.firestore.FirebaseFirestore
-import dhankher.com.kuretest.data.User.Companion.toUser
+import dhankher.com.kuretest.data.KureContact.Companion.toUser
 import kotlinx.coroutines.tasks.await
 
 object FirebaseContactsService {
     private const val TAG = "FirebaseContactsService"
 
-    suspend fun getContacts(): List<User> {
+    suspend fun getContacts(): List<KureContact> {
         val db = FirebaseFirestore.getInstance()
         return try {
             db.collection("users")
@@ -21,11 +21,11 @@ object FirebaseContactsService {
     }
 
 
-    fun addContact(user: User) {
+    fun addContact(kureContact: KureContact) {
         val db = FirebaseFirestore.getInstance()
 
         db.collection("users")
-            .add(user)
+            .add(kureContact)
             .addOnSuccessListener { documentReference ->
                 Log.d(TAG, "UserList: User Added! ${documentReference.id}")
             }
