@@ -35,17 +35,17 @@ import javax.inject.Inject
         }
     }
 
-    fun addContact() {
-        viewModelScope.launch {
-            FirebaseContactsService.addContact(
-                KureContact(
-                    "3",
-                    "Sandeep",
-                    "Engineer",
-                    "https://dhankher.com/sandeep-photo.jpg"
-                )
-            )
-        }
-    }
+//    fun addContact() {
+//        viewModelScope.launch {
+//            FirebaseContactsService.addContact(
+//                KureContact(
+//                    "3",
+//                    "Sandeep",
+//                    "Engineer",
+//                    "https://dhankher.com/sandeep-photo.jpg"
+//                )
+//            )
+//        }
+//    }
 
 }

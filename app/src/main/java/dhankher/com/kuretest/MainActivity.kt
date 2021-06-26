@@ -30,7 +30,13 @@ class MainActivity : AppCompatActivity() {
         viewModel.kureContacts.observe(this) {
             Log.d(TAG, "UserList: ReceivedContactsFromFireStore- ${it.size}")
             Log.d(TAG, "UserList: Uploading Contacts to Sendbird..")
-            uploadContactsToSendbird()
+            var sendBirdContacts = ArrayList<SendbirdContact>()
+            for (kureContact in it) {
+                var sendBirdContact =
+                    SendbirdContact(kureContact.id, kureContact.firstName, kureContact.profilePictureUrl)
+                sendBirdContacts.add(sendBirdContact)
+            }
+            uploadContactsToSendbird(sendBirdContacts)
         }
 
         viewModel.sendBirdCreatedUsersResponse.observe(this){
@@ -51,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
     fun addContacts(view: View) {
         Log.d(TAG, "UserList: addingData..")
-        viewModel.addContact()
+//        viewModel.addContact()
 
     }
 
@@ -60,8 +66,8 @@ class MainActivity : AppCompatActivity() {
         viewModel.getContactsData()
     }
 
-    fun uploadContactsToSendbird(){
-        viewModel.uploadKureUsersToSendbird(listOf(SendbirdContact("sdsf","Kanit","http:://poonam.png")))
+    fun uploadContactsToSendbird(sendbirdContacts:List<SendbirdContact>){
+        viewModel.uploadKureUsersToSendbird(sendbirdContacts)
     }
 
     fun startChat(view: View){

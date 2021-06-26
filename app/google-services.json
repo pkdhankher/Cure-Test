@@ -1,34 +1,146 @@
 {
   "project_info": {
-    "project_number": "953819011203",
-    "project_id": "kure-test-532b5",
-    "storage_bucket": "kure-test-532b5.appspot.com"
+    "project_number": "880900664877",
+    "firebase_url": "https://kure-dev-191711.firebaseio.com",
+    "project_id": "kure-dev-191711",
+    "storage_bucket": "kure-dev-191711.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:953819011203:android:22bd8f9c47a20ca6e063b6",
+        "mobilesdk_app_id": "1:880900664877:android:a6473366b6ccdc94",
         "android_client_info": {
-          "package_name": "dhankher.com.kuretest"
+          "package_name": "com.karepartners.kureapp.debug"
         }
       },
       "oauth_client": [
         {
-          "client_id": "953819011203-gvrr1nc06u16hu5uknt1rndd12qi37fa.apps.googleusercontent.com",
+          "client_id": "880900664877-2etja7pqq2rontpr6k1h2ijo73mfp81h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karepartners.kureapp.debug",
+            "certificate_hash": "8117162e8d5346161567814718cfe24fef6b3fff"
+          }
+        },
+        {
+          "client_id": "880900664877-7up2v3af4n2qtag1srd3em70ui50fvaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karepartners.kureapp.debug",
+            "certificate_hash": "5d2802a56987872f022824b09ff57c811cf84667"
+          }
+        },
+        {
+          "client_id": "880900664877-kubsaoi9078959q72bbrhi8g1chp5km1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karepartners.kureapp.debug",
+            "certificate_hash": "c23c832f6faaa2d32b0ba744b694f9abd4ce9461"
+          }
+        },
+        {
+          "client_id": "880900664877-64taa1pa10ah1ivmu3mut71rulq9sgc4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAe8W26fHQcCkYF2vDfI41LinnNuMpKQWI"
+          "current_key": "AIzaSyCmUWGVTYO6FU-BhxzzmebgwRF-84SZHf8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "953819011203-gvrr1nc06u16hu5uknt1rndd12qi37fa.apps.googleusercontent.com",
+              "client_id": "115516743461722277782",
               "client_type": 3
+            },
+            {
+              "client_id": "880900664877-1otn4vk8ufo2ojeub964dvu0frtb8vll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adonis.KureApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880900664877:android:4e10c88d68ffbb070152a4",
+        "android_client_info": {
+          "package_name": "com.karepartners.send_bird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880900664877-5889hdil7ua15eei53l9oshag0j3g7bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karepartners.send_bird",
+            "certificate_hash": "9df4443836f713ae02712d65dff6e5c2564c68c3"
+          }
+        },
+        {
+          "client_id": "880900664877-64taa1pa10ah1ivmu3mut71rulq9sgc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmUWGVTYO6FU-BhxzzmebgwRF-84SZHf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115516743461722277782",
+              "client_type": 3
+            },
+            {
+              "client_id": "880900664877-1otn4vk8ufo2ojeub964dvu0frtb8vll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adonis.KureApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880900664877:android:42c69241bbb8cfb10152a4",
+        "android_client_info": {
+          "package_name": "com.kure.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880900664877-64taa1pa10ah1ivmu3mut71rulq9sgc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmUWGVTYO6FU-BhxzzmebgwRF-84SZHf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115516743461722277782",
+              "client_type": 3
+            },
+            {
+              "client_id": "880900664877-1otn4vk8ufo2ojeub964dvu0frtb8vll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adonis.KureApp"
+              }
             }
           ]
         }

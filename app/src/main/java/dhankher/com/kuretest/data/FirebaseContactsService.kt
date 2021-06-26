@@ -11,17 +11,20 @@ object FirebaseContactsService {
     suspend fun getContacts(): List<KureContact> {
         val db = FirebaseFirestore.getInstance()
         return try {
-            db.collection("users")
+            db.collection("usersContacts/2gyQ7XUMuxZx3OCoqmivOdjLMFK2/2gyQ7XUMuxZx3OCoqmivOdjLMFK2")
+                .limit(10)
                 .get().await()
-                .documents.mapNotNull { it.toUser() }
+                .documents.mapNotNull {
+                    it.toUser()
+                }
         } catch (e: Exception) {
             Log.e(TAG, "Error getting contacts", e)
             emptyList()
         }
     }
 
-
-    fun addContact(kureContact: KureContact) {
+    //testing
+    fun addContactToFirebase(kureContact: KureContact) {
         val db = FirebaseFirestore.getInstance()
 
         db.collection("users")

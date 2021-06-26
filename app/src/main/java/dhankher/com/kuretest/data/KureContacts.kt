@@ -15,7 +15,7 @@ data class KureContacts(
                 var sendBirdContacts = ArrayList<SendbirdContact>()
                 for (kureContact in kureContacts) {
                     var sendBirdContact =
-                        SendbirdContact(kureContact.userId, kureContact.name, kureContact.imageUrl)
+                        SendbirdContact(kureContact.id, kureContact.firstName, kureContact.profilePictureUrl)
                     sendBirdContacts.add(sendBirdContact)
                 }
                 return sendBirdContacts

@@ -12,7 +12,8 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "dhankher.com.kuretest"
+//        applicationId "dhankher.com.kuretest"
+        applicationId "com.karepartners.kureapp.debug"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
